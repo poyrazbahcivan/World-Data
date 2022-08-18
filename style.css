@@ -1,8 +1,4 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #ff0000;
-  margin-top: 60px;
+body {
+  background-image: url("This.svg");
+  background-size: cover;
 }
