@@ -23,6 +23,7 @@ svg path:hover {
 
 .logo img{
     width: 50px;
+    vertical-align: middle;
     
 }
 .logo,.topnav{
@@ -36,10 +37,12 @@ header{
     overflow: hidden;
 }
 .topnav a{
-    float: right;
+    
+    display: inline-block;
   color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  vertical-align: middle;
 }
