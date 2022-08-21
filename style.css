@@ -46,3 +46,8 @@ header{
   font-size: 17px;
   vertical-align: middle;
 }
+g:hover path{
+    fill: aquamarine;
+    transition: 0.6s ;
+    cursor: pointer;
+}
