@@ -54,3 +54,45 @@ g:hover path{
 .logo a{
     text-decoration: none;
 }
+
+
+.gnl{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 221, 194);
+}
+
+
+
+.orta {
+    width: 85%;
+    min-height: 100vh;
+    display: block; 
+    margin: auto;
+    padding-top: 100px;
+    background-color: #a8e7c2c8;
+}
+
+.content {
+    position: absolute;
+    float: none;
+    width: 43%; 
+    top: 40%;
+}
+
+.content .title {
+    width: 40%;
+    height: 70px;
+    text-align: right;
+    font-size: larger;
+    color: rgb(42, 41, 41);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content .about {
+    color: rgb(35, 35, 35);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    float: right;
+    width: 90%;
+}
