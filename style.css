@@ -59,40 +59,51 @@ g:hover path{
 .gnl{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 221, 194);
+    background-color: rgb(206, 255, 229);
 }
 
 
 
 .orta {
-    width: 85%;
+    width: 80%;
     min-height: 100vh;
     display: block; 
     margin: auto;
     padding-top: 100px;
-    background-color: #a8e7c2c8;
 }
 
 .content {
-    position: absolute;
-    float: none;
-    width: 43%; 
-    top: 40%;
+    float: left;
+    width: 50%; 
+    top: 30%;
 }
 
 .content .title {
-    width: 40%;
-    height: 70px;
-    text-align: right;
-    font-size: larger;
+    width: 50%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px ;
     color: rgb(42, 41, 41);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .content .about {
+    margin-top: 5%;
     color: rgb(35, 35, 35);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
+    float: left;
+    width: 100%;
+}
+
+.orta .image{
     float: right;
-    width: 90%;
+    width: 45%;
+    top: 30%;
+}
+
+.orta .image img{
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
 }
