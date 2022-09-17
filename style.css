@@ -107,3 +107,30 @@ g:hover path{
     width: 100%;
     height: auto;
 }
+
+.cntout{
+    margin: 7% ;
+}
+
+.introinfo{
+    width: 70%;
+    position: relative;
+    
+
+}
+
+.introinfo .flags{
+    position: absolute;
+    position: centered;
+}
+
+.introinfo .flags img{
+    float: left;
+    width: 400px;
+    height: auto;
+}
+
+.introinfo .countryname{
+    float: right;
+    margin: 20px;
+}
