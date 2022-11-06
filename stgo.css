@@ -1,1 +1,33 @@
- 
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #70aaff;
+    
+}
+
+.goalm
+{
+ width:500px;
+ margin-left:65%;
+ margin-top:-3%;
+ height: 566px;
+ top:10%;
+}
+
+.goalm path
+{
+ fill:transparent;
+ stroke:#ffffff;
+stroke-width:1px;
+ transition:fill 0.3s;
+}
+
+.goalm:hover
+{
+ fill:#9b9b9b;
+}
+
